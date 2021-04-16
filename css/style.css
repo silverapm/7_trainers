@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: rgba(0, 0, 0, .65);
+    padding: 25px 25px 0 25px;
+}
+
+.headertop {
+    padding-bottom: 21px;
+    border-bottom: solid 2px #464646;
+}
+
+.headerbottom {
+    padding: 22px 0 26px;
+}
+
+.btnstore, .btnsign, .btnlogin {
+    line-height: 42px;
+    text-align: center;
+    width: 170px;
+    height: 42px;
+    border: none;
+    border-radius: 4px;
+}
+
+.headertop input {
+    padding-left: 17px;
+    width: 170px;
+    height: 42px;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #959595;
+    border: none;
+    border-radius: 4px;
+    font: 16px/42px 'Metropolis';
+}
+
+.headertop a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font: 16px/42px 'Metropolis';
+}
+
+.btnlogin {
+    background-color: #464646;
+}
+
+.btnsign {
+    background-color: #fa090a;
+}
+
+.btnstore {
+    background-color: #252525;
+}
+
+.headertop, .headerbottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headertop i {
+    margin-right: 13px;
+}
+
+.headerbottom ul {
+    list-style: none;
+
+}
+
+.headerbottom ul li {
+    display: inline-block;
+}
+
+.headerbottom ul li a {
+    color: white;
+    text-transform: uppercase;
+    display: inline-block;
+    text-decoration: none;
+    font: 26px/29px 'Bebas Neue';
+}
+
+.headerbottom ul li:after {
+    display: block;
+    content: "";
+    background-color: transparent;
+    height: 2px;
+    width: 1%;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.headerbottom ul li:hover:after, .headerbottom ul li.active:after {
+    background-color: #ff0000;
+    width: 100%;
+}
+
+.headericons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerbottom a {
+    text-decoration: none;
+    border: none;
+    display: inline-block;
+    color: #fa090a;
+}
+
+.headericons div {
+    font-size: 30px;
+    margin-left: 16px;
+}
