@@ -116,3 +116,48 @@ header {
     font-size: 30px;
     margin-left: 16px;
 }
+
+footer {
+    padding: 50px 25px 62px 25px;
+    background-color: #252525;
+    border-top: solid 1px #48474b;
+    border-bottom: solid 1px #48474b;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footericons {
+    display: flex;
+    justify-content: space-between;
+    font-size: 42px;
+}
+
+.footericons a {
+    display: inline-block;
+    color: #ff0000;
+}
+
+.botline {
+    background-color: #010006;
+    height: 63px;
+}
+
+footer ul {
+    list-style: none;
+
+}
+
+footer ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font: 14px/34px 'Metropolis';
+}
+
+footer .footerlists {
+    display: inline-block;
+}
+footer  .imgblockfoot img{
+    margin-bottom: 44px;
+}
