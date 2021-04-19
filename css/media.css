@@ -1,31 +1,13 @@
-/*320px*/
-
-/*360px*/
-/*   */
-/*372px*/
-/*      */
-/*414px*/
-/*         */
-/*768px*/
-/*            */
-/*992px*/
-/*               */
-/*1024px*/
-@media only screen and (max-width: 320px) {
-
-}
-@media only screen and (max-width: 360px) {
-
-}
-@media only screen and (max-width: 372px) {
-
-}
-@media only screen and (max-width: 414px) {
-
-}
-@media only screen and (max-width: 768px) {
+/*1024*/
+/*992*/
+/*768*/
+/*414*/
+/*372*/
+/*360*/
+/*320*/
+@media only screen and (max-width: 1024px) {
     header {
-        background-color: green;
+        background-color: red;
     }
 
 }
@@ -35,9 +17,23 @@
     }
 
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 768px) {
     header {
-        background-color: red;
+        background-color: green;
     }
 
 }
+@media only screen and (max-width: 414px) {
+
+}
+@media only screen and (max-width: 372px) {
+
+}
+@media only screen and (max-width: 360px) {
+
+}
+@media only screen and (max-width: 320px) {
+
+}
+
+
