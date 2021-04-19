@@ -11,6 +11,7 @@ header {
 .headertop {
     padding-bottom: 21px;
     border-bottom: solid 2px #464646;
+    align-items: center;
 }
 
 .headerbottom {
@@ -37,6 +38,13 @@ header {
     border: none;
     border-radius: 4px;
     font: 16px/42px 'Metropolis';
+    background-color: #ebebeb;
+}
+.headertop form i{
+    height: 42px;
+    color: red;
+    text-align: center;
+    background-color: #ebebeb;
 }
 
 .headertop a {
@@ -83,6 +91,7 @@ header {
     display: inline-block;
     text-decoration: none;
     font: 26px/29px 'Bebas Neue';
+    margin-right: 30px;
 }
 
 .headerbottom ul li:after {

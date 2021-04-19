@@ -1,0 +1,43 @@
+/*320px*/
+
+/*360px*/
+/*   */
+/*372px*/
+/*      */
+/*414px*/
+/*         */
+/*768px*/
+/*            */
+/*992px*/
+/*               */
+/*1024px*/
+@media only screen and (max-width: 320px) {
+
+}
+@media only screen and (max-width: 360px) {
+
+}
+@media only screen and (max-width: 372px) {
+
+}
+@media only screen and (max-width: 414px) {
+
+}
+@media only screen and (max-width: 768px) {
+    header {
+        background-color: green;
+    }
+
+}
+@media only screen and (max-width: 992px) {
+    header {
+        background-color: yellow;
+    }
+
+}
+@media only screen and (max-width: 1024px) {
+    header {
+        background-color: red;
+    }
+
+}
