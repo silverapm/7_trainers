@@ -2,7 +2,13 @@
     padding: 0;
     margin: 0;
 }
-
+body{
+    background-color: #959595;
+}
+.wraper {
+    max-width: 1300px;
+    margin: auto;
+}
 header {
     background-color: rgba(0, 0, 0, .65);
     padding: 25px 25px 0 25px;
@@ -152,12 +158,12 @@ header form input {
     margin-left: 16px;
 }
 section {
-    padding: 76px 0 49px;
     background-color: #010006;
     border-top: solid 1px #48474b;
 }
 
 section .section_content{
+    padding: 76px 0 49px;
     max-width: 900px;
     margin: auto;
 }
@@ -166,6 +172,7 @@ section p{
     font: 16px/27px 'Metropolis';
     color: white;
     margin-bottom: 32px;
+    text-transform: uppercase;
 }
 
 section .subscribe_form{
@@ -185,6 +192,7 @@ section form input{
     font: 17px/40px 'Metropolis';
     text-transform: uppercase;
     border: none;
+    border-radius: 4px;
 }
 
 section .btnsubscribe{
@@ -228,6 +236,7 @@ footer {
 
 footer ul {
     list-style: none;
+    display: inline-block;
 
 }
 
@@ -239,9 +248,6 @@ footer ul li a {
     font: 14px/34px 'Metropolis';
 }
 
-footer .footerlists {
-    display: inline-block;
-}
 footer  .imgblockfoot img{
     margin-bottom: 44px;
 }
