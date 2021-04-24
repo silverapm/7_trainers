@@ -6,7 +6,7 @@
 /*360*/
 /*320*/
 @media only screen and (max-width: 1126px) {
-    header .headertop img{
+    header .headertop img {
         width: 100%;
     }
 
@@ -14,13 +14,16 @@
         width: 140px;
         margin-left: 10px;
     }
+
     header form {
         width: 140px;
     }
-    .btnstore a, .btnlogin a, .btnsign a{
+
+    .btnstore a, .btnlogin a, .btnsign a {
         color: transparent;
     }
-    .btnstore a i, .btnlogin a i, .btnsign a i{
+
+    .btnstore a i, .btnlogin a i, .btnsign a i {
         color: white;
     }
 }
@@ -29,6 +32,7 @@
 
 
 }
+
 @media only screen and (max-width: 992px) {
 }
 
@@ -36,86 +40,115 @@
     footer {
         flex-direction: column;
     }
-    footer .imgblockfoot{
+
+    footer .imgblockfoot {
         max-width: 320px;
         margin: auto;
     }
-    footer  ul{
+
+    footer ul {
         display: flex;
         justify-content: space-evenly;
     }
-    footer  .footericons{
+
+    footer .footericons {
         margin-bottom: 30px;
     }
-    footer  .imgblockfoot img{
+
+    footer .imgblockfoot img {
         margin-bottom: 30px;
     }
 
 }
 
 @media only screen and (max-width: 768px) {
-    section .subscribe_form{
+
+    header {
+        position: relative;
+    }
+
+    .pagetitle img {
+        display: none;
+    }
+
+    section .subscribe_form {
         flex-direction: column;
     }
-    section form input{
+
+    section form input {
         width: 300px;
         margin-bottom: 20px;
     }
-    header .headertop{
+
+    header .headertop {
         flex-direction: column;
     }
+
     .btnstore, .btnlogin, .btnsign {
         width: 80%;
         margin-top: 10px;
     }
+
     header form {
         width: 320px;
     }
-    .headertop form button{
+
+    .headertop form button {
         width: 15%;
     }
-    .btnstore a, .btnlogin a, .btnsign a{
+
+    .btnstore a, .btnlogin a, .btnsign a {
         color: white;
     }
-    footer ul{
+
+    footer ul {
         flex-direction: column;
         margin-left: 40px;
     }
 
 }
+
 @media only screen and (max-width: 414px) {
-    section form input, section .subscribe_form a{
+    section form input, section .subscribe_form a {
         width: 250px;
     }
+
     header form {
         width: 280px;
     }
-    .headertop form button{
+
+    .headertop form button {
         width: 13%;
     }
-    section p{
+
+    section p {
         padding: 0 10px 0 10px;
     }
 
 }
+
 @media only screen and (max-width: 372px) {
-    section form input, section .subscribe_form a{
+    section form input, section .subscribe_form a {
         width: 220px;
     }
+
     header form {
         width: 250px;
     }
 
 }
+
 @media only screen and (max-width: 360px) {
     header form {
         width: 220px;
     }
+
     .headericons {
         flex-direction: column;
     }
 
 }
+
 @media only screen and (max-width: 320px) {
     header form {
         width: 200px;

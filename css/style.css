@@ -2,16 +2,25 @@
     padding: 0;
     margin: 0;
 }
-body{
+
+body {
     background-color: #959595;
 }
-.wraper {
-    max-width: 1300px;
-    margin: auto;
-}
+
 header {
     background-color: rgba(0, 0, 0, .65);
     padding: 25px 25px 0 25px;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    box-sizing: border-box;
+}
+
+.pagetitle img {
+    position: relative;
+    display: block;
+    width: 100%;
+    z-index: 1;
 }
 
 .headertop {
@@ -47,6 +56,7 @@ header form input {
     background-color: transparent;
     width: 75%;
 }
+
 .btnstore, .btnlogin, .btnsign {
     height: 42px;
     width: 170px;
@@ -59,11 +69,11 @@ header form input {
     font: 16px/42px 'Metropolis';
 }
 
-.headertop input:focus{
+.headertop input:focus {
     outline: none;
 }
 
-.headertop form button{
+.headertop form button {
     border: none;
     box-shadow: none;
     line-height: 42px;
@@ -72,7 +82,7 @@ header form input {
     width: 23%;
 }
 
-.headertop form i{
+.headertop form i {
     font-size: 17px;
     height: 42px;
     color: red;
@@ -157,17 +167,19 @@ header form input {
     font-size: 30px;
     margin-left: 16px;
 }
+
 section {
     background-color: #010006;
     border-top: solid 1px #48474b;
 }
 
-section .section_content{
+section .section_content {
     padding: 76px 0 49px;
     max-width: 900px;
     margin: auto;
 }
-section p{
+
+section p {
     text-align: center;
     font: 16px/27px 'Metropolis';
     color: white;
@@ -175,7 +187,7 @@ section p{
     text-transform: uppercase;
 }
 
-section .subscribe_form{
+section .subscribe_form {
     max-width: 734px;
     margin: auto;
     display: flex;
@@ -183,7 +195,7 @@ section .subscribe_form{
     align-items: center;
 }
 
-section form input{
+section form input {
     width: 380px;
     height: 40px;
     padding-left: 26px;
@@ -195,7 +207,7 @@ section form input{
     border-radius: 4px;
 }
 
-section .btnsubscribe{
+section .btnsubscribe {
     text-align: center;
     font: 21px/50px 'Metropolis';
     color: white;
@@ -248,6 +260,7 @@ footer ul li a {
     font: 14px/34px 'Metropolis';
 }
 
-footer  .imgblockfoot img{
+footer .imgblockfoot img {
     margin-bottom: 44px;
 }
+
